@@ -1,2 +1,11 @@
 
+- ?haskell
 - https://quint-lang.org/
+- agda
+- dafny
+- idris
+- ?coq
+- lean
+- fstar
+- ?alloy
+- ?tlaplus
