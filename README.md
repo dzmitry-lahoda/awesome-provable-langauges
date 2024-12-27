@@ -11,7 +11,7 @@
 | ?alloy |
 | ?tlaplus|
 | ?prolog | 
-
+| ?[mercury](https://mercurylang.org/) | 
 ## Strong safe type systems which cannot do full proofs in language (can use industially accepted extensions/analyzers/plugins within some limits):
 - haskell
 - [rust](https://github.com/newca12/awesome-rust-formalized-reasoning?tab=readme-ov-file#verification) 
