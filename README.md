@@ -4,7 +4,7 @@
 | agda    |
 | lean    |    +        |              | +           |      +    | -    | +               |               |     +       |       +            |
 | dafny   | |             |               |         |          |                    |         |            |       +             |
-| !![quint](https://quint-lang.org/)   |
+| !! [quint](https://quint-lang.org/)   |
 | idris |               
 | coq| |             |               |         |          |                    |         |            |       -             |
 | fstar |               |             |               |         |          |                    |         |            |       +             |
