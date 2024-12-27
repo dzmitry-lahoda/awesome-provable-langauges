@@ -3,15 +3,16 @@
 | --------| ------------| -------------| -----------| -----------|------|-----------------|--------------| -------------| -----------------|
 | agda    |
 | lean    |    +        |              | +           |      +    | -    | +               |               |     +       |       +            |
-| dafny   |
-| [quint](https://quint-lang.org/)   |
+| dafny   | |             |               |         |          |                    |         |            |       +             |
+| !![quint](https://quint-lang.org/)   |
 | idris |               
-| ?coq|
+| coq| |             |               |         |          |                    |         |            |       -             |
 | fstar |               |             |               |         |          |                    |         |            |       +             |
-| ?alloy |
-| ?tlaplus|
-| ??[curry](https://curry-lang.org/) | 
+| !!alloy |
+| !!tlaplus|
+| ??[curry](https://curry-lang.org/) |  |             |               |         |          |                    |         |            |       +             |
 | ??[mercury](https://mercurylang.org/) | 
+| [isabelle](https://isabelle.in.tum.de/)
 ## Strong safe type systems which cannot do full proofs in language (can use industially accepted extensions/analyzers/plugins within some limits):
 - haskell
 - [rust](https://github.com/newca12/awesome-rust-formalized-reasoning?tab=readme-ov-file#verification) 
@@ -21,6 +22,8 @@
 Not sure if prolog fits, so add langauges which is superset ?? of prolog.
 
 ## Model checkers and specification lanagues ?
+
+!!
 
 ## Prominent projects
 
