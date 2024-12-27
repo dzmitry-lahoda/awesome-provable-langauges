@@ -10,11 +10,17 @@
 | fstar |               |             |               |         |          |                    |         |            |       +             |
 | ?alloy |
 | ?tlaplus|
-| ?prolog | 
-| ?[mercury](https://mercurylang.org/) | 
+| ??[curry](https://curry-lang.org/) | 
+| ??[mercury](https://mercurylang.org/) | 
 ## Strong safe type systems which cannot do full proofs in language (can use industially accepted extensions/analyzers/plugins within some limits):
 - haskell
 - [rust](https://github.com/newca12/awesome-rust-formalized-reasoning?tab=readme-ov-file#verification) 
+
+## Prolog?
+
+Not sure if prolog fits, so add langauges which is superset ?? of prolog.
+
+## Model checkers and specification lanagues ?
 
 ## Prominent projects
 
