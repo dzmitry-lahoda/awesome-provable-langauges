@@ -21,3 +21,8 @@
 ### Lean
 
 Alfa fold
+
+
+## Other lists
+
+https://github.com/awesomo4000/awesome-provable?tab=readme-ov-file#languages
