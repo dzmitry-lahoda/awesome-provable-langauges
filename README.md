@@ -1,16 +1,27 @@
 
-Cannot do full proofs (even with wide used industially accepted extensions/analyzers/plugins):
+## Cannot do full proofs in language (can use industially accepted extensions/analyzers/plugins within some limits):
 - haskell
-- rust
+- [rust](https://github.com/newca12/awesome-rust-formalized-reasoning?tab=readme-ov-file#verification) 
 
-Can do proofs:
-- https://quint-lang.org/
-- agda
-- dafny
-- idris
-- ?coq 
-- lean
-- fstar
-- ?alloy
-- ?tlaplus
-- ?
+
+
+## Can do proofs:
+| langauge| wasm target | riskv target | x86 target | arm target | lazy | dependant types | linear types | bootstrapped |  general purpose | 
+| --------| ------------| -------------| -----------| -----------|------|-----------------|--------------| -------------| -----------------|
+| agda    |
+| lean    |    +        |              | +           |      +    | -    | +               |               |     +       |       +            |
+| dafny   |
+| [quint](https://quint-lang.org/)   |
+| idris |               
+| ?coq|
+| fstar |               |             |               |         |          |                    |         |            |       +             |
+| ?alloy |
+| ?tlaplus|
+| ?prolog | 
+
+
+## Prominent projects
+
+### Lean
+
+Alfa fold
