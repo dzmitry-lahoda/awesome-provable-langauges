@@ -7,7 +7,8 @@
 | !! [quint](https://quint-lang.org/)   |
 | idris |               
 | coq| |             |               |         |          |                    |         |            |       -             ||
-| fstar |               |             |               |         |          |                    |         |            |       +             ||
+| fstar |               |             |               |         |          |                    |         |            |       +             | + |
+| Kind | 
 | !!alloy |
 | !!tlaplus|
 | ??[curry](https://curry-lang.org/) |  |             |               |         |          |                    |         |            |       +             ||
