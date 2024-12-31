@@ -1,32 +1,44 @@
 ## Can do proofs:
-| langauge| wasm target | riskv target | x86 target | arm target | lazy | dependant types | linear types | bootstrapped |  general purpose | refinement types |
-| --------| ------------| -------------| -----------| -----------|------|-----------------|--------------| -------------| -----------------| ----------------- |
-| agda    |
-| lean    |    +        |              | +           |      +    | -    | +               |               |     +       |       +            | |
-| dafny   | |             |               |         |          |                    |         |            |       +             ||
-| !! [quint](https://quint-lang.org/)   |
-| idris |               
-| coq| |             |               |         |          |                    |         |            |       -             ||
-| fstar |               |             |               |         |          |                    |         |            |       +             | + |
-| Kind | 
-| !!alloy |
-| !!tlaplus|
-| ??[curry](https://curry-lang.org/) |  |             |               |         |          |                    |         |            |       +             ||
-| ??[mercury](https://mercurylang.org/) | 
-| [isabelle](https://isabelle.in.tum.de/)
-## Strong safe type systems which cannot do full proofs in language (can use industially accepted extensions/analyzers/plugins within some limits):
-- haskell
-- [rust](https://github.com/newca12/awesome-rust-formalized-reasoning?tab=readme-ov-file#verification) 
 
-## Prolog?
 
-Not sure if prolog fits, so add langauges which is superset ?? of prolog.
+| Language                                | wasm target | riskv target | x86 target | arm target | lazy | dependant types | linear types | bootstrapped | general purpose | refinement types |
+|-----------------------------------------|-------------|--------------|------------|------------|------|-----------------|--------------|--------------|-----------------|------------------|
+| agda                                    |             |              |            |            |      |                 |              |              |                 |                  |
+| lean                                    | +           |              | +          | +          | -    | +               |              | +            | +               |                  |
+| dafny                                   |             |              |            |            |      |                 |              |              | +               |                  |
+| !! [quint](https://quint-lang.org/)     |             |              |            |            |      |                 |              |              |                 |                  |
+| idris                                   |             |              |            |            |      |                 |              |              |                 |                  |
+| coq                                     |             |              |            |            |      |                 |              |              | -               |                  |
+| fstar                                   |             |              |            |            |      |                 |              |              | +               | +                |
+| Kind                                    |             |              |            |            |      |                 |              |              |                 |                  |
+| !!alloy                                 |             |              |            |            |      |                 |              |              |                 |                  |
+| !!tlaplus                               |             |              |            |            |      |                 |              |              |                 |                  |
+| ??[curry](https://curry-lang.org/)      |             |              |            |            |      |                 |              |              | +               |                  |
+| ??[mercury](https://mercurylang.org/)   |             |              |            |            |      |                 |              |              |                 |                  |
+| [isabelle](https://isabelle.in.tum.de/) |             |              |            |            |      |                 |              |              |                 |                  |
 
-## Model checkers and specification lanagues ?
 
-!!
 
-## Sumpbolic like Mathematica?
+## Out of scope
+
+
+### Strong safe type systems which cannot do full proofs within language 
+
+Languages like C/C++/Haskell/Ada/[Rust](https://github.com/newca12/awesome-rust-formalized-reasoning?tab=readme-ov-file#verification) 
+has a lot of tooling to prove things about them, but that tooling is not part of langauge.
+
+### Prolog and its supersets
+
+???
+
+### Model checkers and specification languages 
+
+???
+
+
+### Symbolic
+
+??? Mathematica?
 
 ## Prominent projects
 
