@@ -1,22 +1,51 @@
 ## Can do proofs:
 
 
-| Language                                | wasm target | riskv target | x86 target | arm target | lazy | dependant types | linear types | bootstrapped | general purpose | refinement types |
-|-----------------------------------------|-------------|--------------|------------|------------|------|-----------------|--------------|--------------|-----------------|------------------|
-| agda                                    |             |              |            |            |      |                 |              |              |                 |                  |
-| lean                                    | +           |              | +          | +          | -    | +               |              | +            | +               |                  |
-| dafny                                   |             |              |            |            |      |                 |              |              | +               |                  |
-| !! [quint](https://quint-lang.org/)     |             |              |            |            |      |                 |              |              |                 |                  |
-| idris                                   |             |              |            |            |      |                 |              |              |                 |                  |
-| coq                                     |             |              |            |            |      |                 |              |              | -               |                  |
-| fstar                                   |             |              |            |            |      |                 |              |              | +               | +                |
-| Kind                                    |             |              |            |            |      |                 |              |              |                 |                  |
-| !!alloy                                 |             |              |            |            |      |                 |              |              |                 |                  |
-| !!tlaplus                               |             |              |            |            |      |                 |              |              |                 |                  |
-| ??[curry](https://curry-lang.org/)      |             |              |            |            |      |                 |              |              | +               |                  |
-| ??[mercury](https://mercurylang.org/)   |             |              |            |            |      |                 |              |              |                 |                  |
-| [isabelle](https://isabelle.in.tum.de/) |             |              |            |            |      |                 |              |              |                 |                  |
+| Language                                     | lazy | dependant types | linear types | bootstrapped | general purpose | refinement types | type classes |
+|----------------------------------------------|------|-----------------|--------------|--------------|-----------------|------------------|--------------|
+| Agda                                         |      |                 |              |              |                 |                  |              |
+| Lean                                         | -    | +               |              | +            | +               |                  |              |
+| [Dafny](https://github.com/dafny-lang/dafny) |      |                 |              |              | +               |                  |              |
+| !! [quint](https://quint-lang.org/)          |      |                 |              |              |                 |                  |              |
+| Idris                                        |      |                 |              |              |                 |                  |              |
+| Coq                                          |      |                 |              |              | -               |                  |              |
+| Fstar                                        |      |                 |              |              | +               | +                |              |
+| Kind                                         |      |                 |              |              |                 |                  |              |
+| !!Alloy                                      |      |                 |              |              |                 |                  |              |
+| !!TlaPlus                                    |      |                 |              |              |                 |                  |              |
+| ??[Curry](https://curry-lang.org/)           |      |                 |              |              | +               |                  |              |
+| ??[Mercury](https://mercurylang.org/)        |      |                 |              |              |                 |                  |              |
+| [Isabelle](https://isabelle.in.tum.de/)      |      |                 |              |              |                 |                  |              |
 
+
+
+### Runtime and compiled targets
+
+| Language                                | wasm target | riskv target | x86 target | arm target | C | JS |
+|-----------------------------------------|-------------|--------------|------------|------------|---|----|
+| Agda                                    |             |              |            |            |   |    |
+| Lean                                    | +           |              | +          | +          |   |    |
+| Dafny                                   |             |              |            |            |   | +  |
+| !! [quint](https://quint-lang.org/)     |             |              |            |            |   |    |
+| Idris                                   |             |              |            |            |   |    |
+| Coq                                     |             |              |            |            |   |    |
+| Fstar                                   |             |              |            |            |   |    |
+| Kind                                    |             |              |            |            |   |    |
+| !!Alloy                                 |             |              |            |            |   |    |
+| !!TlaPlus                               |             |              |            |            |   |    |
+| ??[Curry](https://curry-lang.org/)      |             |              |            |            |   |    |
+| ??[Mercury](https://mercurylang.org/)   |             |              |            |            |   |    |
+| [Isabelle](https://isabelle.in.tum.de/) |             |              |            |            |   |    |
+
+
+### Stats
+
+
+| Language | stars                                                                      | contributors                                                                        |   |   |   |   |
+|----------|----------------------------------------------------------------------------|-------------------------------------------------------------------------------------|---|---|---|---|
+| Agda     |                                                                            |                                                                                     |   |   |   |   |
+| Lean     | ![GitHub Repo stars](https://img.shields.io/github/stars/leanprover/lean4) | ![GitHub contributors](https://img.shields.io/github/contributors/leanprover/lean4) |   |   |   |   |
+| Dafny    | ![GitHub Repo stars](https://img.shields.io/github/stars/dafny-lang/dafny) | ![GitHub contributors](https://img.shields.io/github/contributors/dafny-lang/dafny) |   |   |   |   |
 
 
 ## Out of scope
@@ -35,10 +64,13 @@ has a lot of tooling to prove things about them, but that tooling is not part of
 
 ???
 
-
 ### Symbolic
 
 ??? Mathematica?
+
+### Verifiaction tools and eDSLs
+
+???
 
 ## Prominent projects
 
