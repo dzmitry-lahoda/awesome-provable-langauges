@@ -46,9 +46,11 @@
 
 | Language | stars                                                                      | contributors                                                                        |   |   |   |   |
 |----------|----------------------------------------------------------------------------|-------------------------------------------------------------------------------------|---|---|---|---|
-| Agda     |                                                                            |                                                                                     |   |   |   |   |
+| Agda     | ![GitHub Repo stars](https://img.shields.io/github/stars/agda/agda)        | ![GitHub contributors](https://img.shields.io/github/contributors/agda/agda) |   |   |   |   |
 | Lean     | ![GitHub Repo stars](https://img.shields.io/github/stars/leanprover/lean4) | ![GitHub contributors](https://img.shields.io/github/contributors/leanprover/lean4) |   |   |   |   |
 | Dafny    | ![GitHub Repo stars](https://img.shields.io/github/stars/dafny-lang/dafny) | ![GitHub contributors](https://img.shields.io/github/contributors/dafny-lang/dafny) |   |   |   |   |
+| Coq      | ![GitHub Repo stars](https://img.shields.io/github/stars/coq/coq)          | ![GitHub contributors](https://img.shields.io/github/contributors/coq/coq)          |   |   |   |   |
+| Fstar    | ![GitHub Repo stars](https://img.shields.io/github/stars/FStarLang/FStar)  | ![GitHub contributors](https://img.shields.io/github/contributors/FStarLang/FStar)  |   |   |   |   |
 
 
 ## Out of scope
