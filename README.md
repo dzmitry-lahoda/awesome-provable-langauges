@@ -40,6 +40,9 @@
 
 ### Stats
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=leanprover/lean4,dafny-lang/dafny,agda/agda,FStarLang/FStar,idris-lang/Idris2,HigherOrderCO/Kind&type=Date)](https://star-history.com/#leanprover/lean4&dafny-lang/dafny&agda/agda&FStarLang/FStar&idris-lang/Idris2&HigherOrderCO/Kind&Date)
 
 | Language | stars                                                                      | contributors                                                                        |   |   |   |   |
 |----------|----------------------------------------------------------------------------|-------------------------------------------------------------------------------------|---|---|---|---|
